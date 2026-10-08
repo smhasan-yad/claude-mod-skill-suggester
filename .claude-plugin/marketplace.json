@@ -1,0 +1,13 @@
+{
+    "name":  "claude-mod-skill-suggester",
+    "owner":  {
+                  "name":  "Hasan"
+              },
+    "plugins":  [
+                    {
+                        "description":  "Suggests one of your skills from what you are working on: your message, the last few turns, the files Claude reads and writes, project hints and your past clicks. Local BM25 over each SKILL.md; no model calls, no tokens until you click.",
+                        "name":  "skill-suggester",
+                        "source":  "./"
+                    }
+                ]
+}
